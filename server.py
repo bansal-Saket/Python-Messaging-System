@@ -1,5 +1,8 @@
 import threading
 import socket
+import tkinter as tk
+from tkinter import filedialog, Text
+import os
 
 host = '127.0.0.1' #local host
 port = 65535
